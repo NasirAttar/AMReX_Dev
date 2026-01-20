@@ -1,0 +1,299 @@
+==========================================
+SLURM_CLUSTER_NAME = parampravega
+SLURM_ARRAY_JOB_ID = 
+SLURM_ARRAY_TASK_ID = 
+SLURM_ARRAY_TASK_COUNT = 
+SLURM_ARRAY_TASK_MAX = 
+SLURM_ARRAY_TASK_MIN = 
+SLURM_JOB_ACCOUNT = extvshenoi
+SLURM_JOB_ID = 247988
+SLURM_JOB_NAME = GP30K_und
+SLURM_JOB_NODELIST = gpu[009,019-023,028-029]
+SLURM_JOB_USER = extvshenoi
+SLURM_JOB_UID = 36055
+SLURM_JOB_PARTITION = gpumultinode
+SLURM_TASK_PID = 44744
+SLURM_SUBMIT_DIR = /home/ext/extvshenoi/amrex-dev/sample_codes/Dendritic/Multiphase/GP_3D_multiphase/Exec
+SLURM_CPUS_ON_NODE = 40
+SLURM_NTASKS = 16
+SLURM_TASK_PID = 44744
+==========================================
+core file size          (blocks, -c) unlimited
+data seg size           (kbytes, -d) unlimited
+scheduling priority             (-e) 0
+file size               (blocks, -f) unlimited
+pending signals                 (-i) 767114
+max locked memory       (kbytes, -l) unlimited
+max memory size         (kbytes, -m) unlimited
+open files                      (-n) 4096
+pipe size            (512 bytes, -p) 8
+POSIX message queues     (bytes, -q) 819200
+real-time priority              (-r) 0
+stack size              (kbytes, -s) unlimited
+cpu time               (seconds, -t) unlimited
+max user processes              (-u) 767114
+virtual memory          (kbytes, -v) unlimited
+file locks                      (-x) unlimited
+Initializing CUDA...
+CUDA initialized with 1 GPU per MPI rank; 16 GPU(s) used in total
+MPI initialized with 16 MPI processes
+MPI initialized with thread support level 0
+AMReX (22.07-11-gb673d81723c5) initialized
+Partitions are: 2 , 2 , 4
+(BoxArray maxbox(16)
+       m_ref->m_hash_sig(0)
+       ((0,0,0) (249,249,124) (0,0,0)) ((250,0,0) (499,249,124) (0,0,0)) ((0,250,0) (249,499,124) (0,0,0)) ((250,250,0) (499,499,124) (0,0,0)) ((0,0,125) (249,249,249) (0,0,0)) ((250,0,125) (499,249,249) (0,0,0)) ((0,250,125) (249,499,249) (0,0,0)) ((250,250,125) (499,499,249) (0,0,0)) ((0,0,250) (249,249,374) (0,0,0)) ((250,0,250) (499,249,374) (0,0,0)) ((0,250,250) (249,499,374) (0,0,0)) ((250,250,250) (499,499,374) (0,0,0)) ((0,0,375) (249,249,499) (0,0,0)) ((250,0,375) (499,249,499) (0,0,0)) ((0,250,375) (249,499,499) (0,0,0)) ((250,250,375) (499,499,499) (0,0,0)) )
+
+deltac : -0.1095840178
+Tau : 36456579.04
+Advanced step1000
+
+anisotropy_max = 6386880.375
+anisotropy_min = -18059431.52
+doublewell_max = 26666521.96
+doublewell_min = 0
+GrandPotFunc_max = 0
+GrandPotFunc_min = -947300000
+mu_max = 15772.38217
+mu_min = 13299.98888
+------------------------------------------------
+Advanced step2000
+
+anisotropy_max = 6812057.34
+anisotropy_min = -19750722.43
+doublewell_max = 26666663.97
+doublewell_min = 0
+GrandPotFunc_max = 0
+GrandPotFunc_min = -943100000
+mu_max = 15772.31613
+mu_min = 13294.70878
+------------------------------------------------
+Advanced step3000
+
+anisotropy_max = 7167775.256
+anisotropy_min = -20452648.65
+doublewell_max = 26666665.41
+doublewell_min = 0
+GrandPotFunc_max = 0
+GrandPotFunc_min = -942800000
+mu_max = 15772.31502
+mu_min = 13287.28193
+------------------------------------------------
+Advanced step4000
+
+anisotropy_max = 7399993.061
+anisotropy_min = -20807355.68
+doublewell_max = 26666647.01
+doublewell_min = 0
+GrandPotFunc_max = 0
+GrandPotFunc_min = -943900000
+mu_max = 15772.31499
+mu_min = 13276.33148
+------------------------------------------------
+Advanced step5000
+
+anisotropy_max = 7686837.694
+anisotropy_min = -20980977.58
+doublewell_max = 26666666.66
+doublewell_min = 0
+GrandPotFunc_max = 0
+GrandPotFunc_min = -946300000
+mu_max = 15772.31499
+mu_min = 13270.89403
+------------------------------------------------
+Advanced step6000
+
+anisotropy_max = 7840514.082
+anisotropy_min = -21282342.92
+doublewell_max = 26666613.55
+doublewell_min = 0
+GrandPotFunc_max = 0
+GrandPotFunc_min = -939800000
+mu_max = 15772.31499
+mu_min = 13260.62956
+------------------------------------------------
+Advanced step7000
+
+anisotropy_max = 8048243.527
+anisotropy_min = -21553772.6
+doublewell_max = 26666666.54
+doublewell_min = 0
+GrandPotFunc_max = 0
+GrandPotFunc_min = -943600000
+mu_max = 15772.31499
+mu_min = 13253.77019
+------------------------------------------------
+Advanced step8000
+
+anisotropy_max = 8227823.537
+anisotropy_min = -21781223.27
+doublewell_max = 26666666.66
+doublewell_min = 0
+GrandPotFunc_max = 0
+GrandPotFunc_min = -940800000
+mu_max = 15772.31499
+mu_min = 13245.90586
+------------------------------------------------
+Advanced step9000
+
+anisotropy_max = 8304505.562
+anisotropy_min = -21983397.63
+doublewell_max = 26666659.58
+doublewell_min = 0
+GrandPotFunc_max = 0
+GrandPotFunc_min = -939800000
+mu_max = 15772.31499
+mu_min = 13239.92327
+------------------------------------------------
+Advanced step10000
+
+anisotropy_max = 8520124.902
+anisotropy_min = -22194143.72
+doublewell_max = 26666666.66
+doublewell_min = 0
+GrandPotFunc_max = 0
+GrandPotFunc_min = -940100000
+mu_max = 15772.31499
+mu_min = 13233.57184
+------------------------------------------------
+Writing checkpoint chk10000
+Advanced step11000
+
+anisotropy_max = 8655782.484
+anisotropy_min = -22379105.6
+doublewell_max = 26666666.08
+doublewell_min = 0
+GrandPotFunc_max = 0
+GrandPotFunc_min = -941000000
+mu_max = 15772.31499
+mu_min = 13218.51383
+------------------------------------------------
+Advanced step12000
+
+anisotropy_max = 8804209.885
+anisotropy_min = -22584888.37
+doublewell_max = 26666666.65
+doublewell_min = 0
+GrandPotFunc_max = 0
+GrandPotFunc_min = -935900000
+mu_max = 15772.31499
+mu_min = 13193.07077
+------------------------------------------------
+Advanced step13000
+
+anisotropy_max = 9148943.04
+anisotropy_min = -22820370.16
+doublewell_max = 26666666.65
+doublewell_min = 0
+GrandPotFunc_max = 0
+GrandPotFunc_min = -937500000
+mu_max = 15772.31499
+mu_min = 13168.32904
+------------------------------------------------
+Advanced step14000
+
+anisotropy_max = 9496870.301
+anisotropy_min = -23097268.35
+doublewell_max = 26666666.67
+doublewell_min = 0
+GrandPotFunc_max = 0
+GrandPotFunc_min = -939100000
+mu_max = 15772.31499
+mu_min = 13144.41939
+------------------------------------------------
+Advanced step15000
+
+anisotropy_max = 9750194.293
+anisotropy_min = -23382824.23
+doublewell_max = 26666666.67
+doublewell_min = 0
+GrandPotFunc_max = 0
+GrandPotFunc_min = -937400000
+mu_max = 15772.31499
+mu_min = 13121.8389
+------------------------------------------------
+Advanced step16000
+
+anisotropy_max = 10103691.88
+anisotropy_min = -23717201.16
+doublewell_max = 26666666.67
+doublewell_min = 0
+GrandPotFunc_max = 0
+GrandPotFunc_min = -937000000
+mu_max = 15772.31499
+mu_min = 13100.56419
+------------------------------------------------
+Advanced step17000
+
+anisotropy_max = 10434487.22
+anisotropy_min = -23986666.38
+doublewell_max = 26666666.67
+doublewell_min = 0
+GrandPotFunc_max = 0
+GrandPotFunc_min = -939700000
+mu_max = 15772.31499
+mu_min = 13082.80461
+------------------------------------------------
+Advanced step18000
+
+anisotropy_max = 10651175.79
+anisotropy_min = -24183050.41
+doublewell_max = 26666666.67
+doublewell_min = 0
+GrandPotFunc_max = 0
+GrandPotFunc_min = -936200000
+mu_max = 15772.31499
+mu_min = 13068.20082
+------------------------------------------------
+Advanced step19000
+
+anisotropy_max = 10815147.87
+anisotropy_min = -24406128.93
+doublewell_max = 26666666.66
+doublewell_min = 0
+GrandPotFunc_max = 0
+GrandPotFunc_min = -939300000
+mu_max = 15772.31499
+mu_min = 13058.25693
+------------------------------------------------
+Advanced step20000
+
+anisotropy_max = 10985305.67
+anisotropy_min = -24557663.69
+doublewell_max = 26666666.67
+doublewell_min = 0
+GrandPotFunc_max = 0
+GrandPotFunc_min = -936100000
+mu_max = 15772.31499
+mu_min = 13050.30925
+------------------------------------------------
+Writing checkpoint chk20000
+Advanced step21000
+
+anisotropy_max = 11077523.33
+anisotropy_min = -24619672.43
+doublewell_max = 26666666.67
+doublewell_min = 0
+GrandPotFunc_max = 0
+GrandPotFunc_min = -939000000
+mu_max = 15772.31499
+mu_min = 13046.92365
+------------------------------------------------
+Advanced step22000
+
+Advanced step23000
+
+Advanced step24000
+
+Advanced step25000
+
+Advanced step26000
+
+Advanced step27000
+
+Advanced step28000
+
+anisotropy_max = 11175917.49
+anisotropy_min = -24885392.26
+Advanced step29000
+

@@ -1,0 +1,123 @@
+==========================================
+SLURM_CLUSTER_NAME = parampravega
+SLURM_ARRAY_JOB_ID = 
+SLURM_ARRAY_TASK_ID = 
+SLURM_ARRAY_TASK_COUNT = 
+SLURM_ARRAY_TASK_MAX = 
+SLURM_ARRAY_TASK_MIN = 
+SLURM_JOB_ACCOUNT = extvshenoi
+SLURM_JOB_ID = 248131
+SLURM_JOB_NAME = GP30K_und
+SLURM_JOB_NODELIST = gpu[019-029,031-035]
+SLURM_JOB_USER = extvshenoi
+SLURM_JOB_UID = 36055
+SLURM_JOB_PARTITION = gpumultinode
+SLURM_TASK_PID = 8192
+SLURM_SUBMIT_DIR = /home/ext/extvshenoi/amrex-dev/sample_codes/Dendritic/Multiphase/GP_3D_multiphase/Exec
+SLURM_CPUS_ON_NODE = 40
+SLURM_NTASKS = 32
+SLURM_TASK_PID = 8192
+==========================================
+core file size          (blocks, -c) unlimited
+data seg size           (kbytes, -d) unlimited
+scheduling priority             (-e) 0
+file size               (blocks, -f) unlimited
+pending signals                 (-i) 767114
+max locked memory       (kbytes, -l) unlimited
+max memory size         (kbytes, -m) unlimited
+open files                      (-n) 4096
+pipe size            (512 bytes, -p) 8
+POSIX message queues     (bytes, -q) 819200
+real-time priority              (-r) 0
+stack size              (kbytes, -s) unlimited
+cpu time               (seconds, -t) unlimited
+max user processes              (-u) 767114
+virtual memory          (kbytes, -v) unlimited
+file locks                      (-x) unlimited
+Initializing CUDA...
+CUDA initialized with 1 GPU per MPI rank; 32 GPU(s) used in total
+MPI initialized with 32 MPI processes
+MPI initialized with thread support level 0
+AMReX (22.07-11-gb673d81723c5) initialized
+Partitions are: 2 , 4 , 4
+(BoxArray maxbox(32)
+       m_ref->m_hash_sig(0)
+       ((0,0,0) (249,124,124) (0,0,0)) ((250,0,0) (499,124,124) (0,0,0)) ((0,125,0) (249,249,124) (0,0,0)) ((250,125,0) (499,249,124) (0,0,0)) ((0,250,0) (249,374,124) (0,0,0)) ((250,250,0) (499,374,124) (0,0,0)) ((0,375,0) (249,499,124) (0,0,0)) ((250,375,0) (499,499,124) (0,0,0)) ((0,0,125) (249,124,249) (0,0,0)) ((250,0,125) (499,124,249) (0,0,0)) ((0,125,125) (249,249,249) (0,0,0)) ((250,125,125) (499,249,249) (0,0,0)) ((0,250,125) (249,374,249) (0,0,0)) ((250,250,125) (499,374,249) (0,0,0)) ((0,375,125) (249,499,249) (0,0,0)) ((250,375,125) (499,499,249) (0,0,0)) ((0,0,250) (249,124,374) (0,0,0)) ((250,0,250) (499,124,374) (0,0,0)) ((0,125,250) (249,249,374) (0,0,0)) ((250,125,250) (499,249,374) (0,0,0)) ((0,250,250) (249,374,374) (0,0,0)) ((250,250,250) (499,374,374) (0,0,0)) ((0,375,250) (249,499,374) (0,0,0)) ((250,375,250) (499,499,374) (0,0,0)) ((0,0,375) (249,124,499) (0,0,0)) ((250,0,375) (499,124,499) (0,0,0)) ((0,125,375) (249,249,499) (0,0,0)) ((250,125,375) (499,249,499) (0,0,0)) ((0,250,375) (249,374,499) (0,0,0)) ((250,250,375) (499,374,499) (0,0,0)) ((0,375,375) (249,499,499) (0,0,0)) ((250,375,375) (499,499,499) (0,0,0)) )
+
+deltac : -0.1095840178
+Tau : 36456579.04
+Advanced step10000
+
+anisotropy_max = 8520124.902
+anisotropy_min = -22194143.72
+doublewell_max = 26666666.66
+doublewell_min = 0
+GrandPotFunc_max = 0
+GrandPotFunc_min = -940100000
+mu_max = 15772.31499
+mu_min = 13233.57184
+------------------------------------------------
+Advanced step20000
+
+anisotropy_max = 10916005.86
+anisotropy_min = -24543847.49
+doublewell_max = 26666666.61
+doublewell_min = 0
+GrandPotFunc_max = 0
+GrandPotFunc_min = -936100000
+mu_max = 15772.31499
+mu_min = 13050.38724
+------------------------------------------------
+Writing checkpoint chk20000
+Advanced step30000
+
+anisotropy_max = 11176183.42
+anisotropy_min = -24991105.82
+doublewell_max = 26666666.66
+doublewell_min = 0
+GrandPotFunc_max = 0
+GrandPotFunc_min = -941000000
+mu_max = 15772.31499
+mu_min = 13045.52391
+------------------------------------------------
+Advanced step40000
+
+anisotropy_max = 15177323.5
+anisotropy_min = -25321635.58
+doublewell_max = 26666666.67
+doublewell_min = 0
+GrandPotFunc_max = 0
+GrandPotFunc_min = -943700000
+mu_max = 15772.31499
+mu_min = 12972.18953
+------------------------------------------------
+Writing checkpoint chk40000
+Advanced step50000
+
+anisotropy_max = 18470796.27
+anisotropy_min = -26125083.16
+doublewell_max = 26666666.67
+doublewell_min = 0
+GrandPotFunc_max = 0
+GrandPotFunc_min = -950200000
+mu_max = 15772.31499
+mu_min = 12729.14709
+------------------------------------------------
+Run time = 8146.404719
+Unused ParmParse Variables:
+  [TOP]::c_guess(nvals = 2)  :: [(0, 0, 0.8868424961322704), ;]
+  [TOP]::c_guess(nvals = 2)  :: [(0, 1, 0.710898875219881), ;]
+  [TOP]::c_guess(nvals = 2)  :: [(1, 1, 0.710898875219881), ;]
+  [TOP]::c_guess(nvals = 2)  :: [(1, 0, 0.710898875219881), ;]
+  [TOP]::slopes(nvals = 2)  :: [(0, 0, 666), ;]
+  [TOP]::slopes(nvals = 2)  :: [(0, 1, 333), ;]
+  [TOP]::slopes(nvals = 2)  :: [(1, 0, 333), ;]
+  [TOP]::slopes(nvals = 2)  :: [(1, 1, 333), ;]
+
+Total GPU global memory (MB) spread across MPI: [16151 ... 16160]
+Free  GPU global memory (MB) spread across MPI: [14186 ... 14324]
+[The         Arena] space (MB) allocated spread across MPI: [12113 ... 12120]
+[The         Arena] space (MB) used      spread across MPI: [0 ... 0]
+[The  Pinned Arena] space (MB) allocated spread across MPI: [97 ... 97]
+[The  Pinned Arena] space (MB) used      spread across MPI: [0 ... 0]
+AMReX (22.07-11-gb673d81723c5) finalized
